@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flipkartdemo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="bs-cards.css">
+  </head>
+  <body class="body" style="background-color: #f1f3f6;" data-bs-spy="scroll">
+    <div >
+       <div class="head" style="background-color: #f1f3f6;">
+            <nav class="navbar fixed-top navbar-expand-lg bg-primary bg-gradient" >
+              <div style="padding-left: 200px;">
+                <a href=""><img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png" alt="" style="width: 75px; padding-top: -1px;"></a>
+                <a href="" style="font-size: 11px; font-style: italic; color: #fff; text-decoration: none; font-weight: 500px;">Explore
+                  <span style="color: yellow; font-style: italic;">Plus</span>
+                  <img width="10" src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png" alt="">
+
+                </a>
+              </div>
+              <form class="d-flex" role="search" style="padding-left: 40px;">
+                <input class="form-control me-2" type="search" placeholder="Search for product,brand and more" aria-label="Search" style="width: 500px; border-radius: 0px;" >
+                
+              </form>
+
+              <button class="btn  btn-outline-white bg-white text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button" style="  --bs-btn-padding-x: 3rem; margin-left: 50px; border-radius: 0px;
+                height: 33px; margin-top: 3px;  text-align: center; --bs-btn-line-height: 3.5px;
+                ">Login</button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-primary">
+                      <h5 class="modal-title" id="exampleModalLabel" style="color: #fff;">Sign In</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="">
+                      
+                          <label>Fullname</label><br>
+                          <input type="text" name="fullname" id="fullname" placeholder="Enter A Name" required><br>
+        
+                          <label>Email</label><br>
+                         <input type="text" name="email" id="email" placeholder="Enter Email" required><br>
+        
+                         <label>Password</label><br>
+                         <input type="password" name="password" placeholder="Enter A Password" required><br>
+        
+                         <label>Repeat Password</label><br>
+                         <input type="password" name="repeat-psw" placeholder="Repeat Password" required><br>
+        
+            
+                         
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 50px;">
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Be come a seller</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          More
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Cart</a>
+                        </li>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+            <div class="container-fluid">
+
+
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="padding-top: 88px;">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://i.ytimg.com/vi/s1RSOfoeJm4/maxresdefault.jpg" class="d-block w-100" alt="..." style="height: 500px; width: 500px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://gumlet.assettype.com/afaqs%2F2022-06%2Fa43ee35b-18cb-4c7f-ac17-63c14a79207f%2FAlia_Bhatt_Flipkart_Fashion_EOSS.jpg?format=webp&w=400&dpr=2.6" class="d-block w-100" alt="..." style="height: 500px; width: 500px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://tenovia.com/wp-content/uploads/2021/09/1050x700-2.webp" class="d-block w-100" alt="..." style="height: 500px; width: 500px;">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+
+
+
+
+              <h1 style="padding-top: 26px;    font-weight: 500;
+               font-size: 16px; ">Samsung Mobile Phones</h1>
+             <p style="    font-size: 12px; line-height: 1.45; width: 100%; color: #878787;">Samsung mobiles come with advanced features and cutting-edge technology to meet the demands of a wide range of consumers. Samsung smartphones offer a vast array of options to its consumers. There is a Samsung phone to meet everyone's demands and needs, whether you're seeking the latest model with high-end capabilities or a basic phone with the essential functions. You can browse the collection of Samsung handsets depending on the RAM, internal storage, screen size, single sim or dual sim, and camera size online. The Samsung A32, Samsung A72, Samsung J8, Galaxy A9, Samsung Galaxy S mobile are amazing additions to the Samsung mobile phone lineup. They are built with significant improvements over their predecessors. Galaxy smartphones are high-end devices intended to provide consumers with a great mobile computing experience. The Samsung Galaxy line, which is designed with taste and packed with features, is well known for its user-friendly features and efficient performance. To upgrade to a Samsung phone and enjoy entertainment like never before, you can check out all the variants of the Samsung phone available online. Check the prices and the ratings of the Samsung phones and choose as per your requirements. Place an order online for easy doorstep delivery. The last we updated information on this page was on 08-Jan-23. Samsung A21s, Samsung A31, Samsung A51, Samsung A71, Samsung Galaxy F13, Samsung Galaxy F23</p>
+              <div  style="height: 310px; width: 100%;background-color: rgb(255, 255, 255); margin-top: 18px; display: flex;">
+                <div style="display: flex; padding-left: 94px;">
+                  <div class="card" style="width: 12rem;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 132px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+
+                   <div class="card" style="width: 12rem; margin-left: 30px;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/l3xcr680/mobile/c/4/9/-original-imagexeyqhh6vwzk.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 132px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.1"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+   
+                    <div class="card" style="width: 12rem;    margin-left: 30px;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/l3hmwsw0/mobile/l/k/q/-original-imagehzbaw2wugme.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 132px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+   
+                   <div class="card" style="width: 12rem;    margin-left: 30px">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/l3xcr680/mobile/a/x/k/-original-imagexezkeefuadb.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 132px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+
+                   <div class="card" style="width: 12rem;    margin-left: 30px;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/h/f/y/galaxy-m04-sm-m045f-samsung-original-imagh799vffkjf8t.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 132px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+
+                   <div class="card" style="width: 12rem;    margin-left: 30px;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 132px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+
+                </div>
+                
+              </div>
+
+              <div  style="height: 310px; width: 100%;background-color: rgb(255, 255, 255); margin-top: 50px; display: flex;">
+                <div style="display: flex; padding-left: 94px;">
+                  <div class="card" style="width: 12rem;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/kn6cxow0/mobile/p/p/r/guru-1200-gt-e1200zkyins-samsung-original-imagfwzx5z9ry8eh.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 77px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+
+                   <div class="card" style="width: 12rem; margin-left: 30px;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/jh6l2fk0/mobile/x/6/g/samsung-guru-1200-gt-e1200zdyins-original-imaf59chuhfyz7rv.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 70px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+   
+                    <div class="card" style="width: 12rem;    margin-left: 30px;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/mobile/g/t/z/samsung-guru-gt-e1200-original-imaebprntwrt6xa7.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 70px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+   
+                   <div class="card" style="width: 12rem;    margin-left: 30px">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/kqidx8w0/mobile/t/v/n/metro-313-sm-b313ezkdins-samsung-original-imag4g39bqjdapa2.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 70px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+
+                   <div class="card" style="width: 12rem;    margin-left: 30px;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/kn6cxow0/mobile/e/a/m/guru-music-2-sm-b310ezwdins-samsung-original-imagfwzxemjwyyvj.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 70px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+
+                   <div class="card" style="width: 12rem;    margin-left: 30px;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/kw9krrk0/mobile/t/e/r/music2-sm315e-samsung-original-imag8z9ysh9hzjnp.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 70px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+
+                </div>
+                
+              </div>
+
+              <div  style="height: 310px; width: 100%;background-color: rgb(255, 255, 255); margin-top: 50px; display: flex;">
+                <div style="display: flex; padding-left: 94px;">
+                  <div class="card" style="width: 12rem;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/kn22m4w0/mobile/9/k/s/galaxy-f12-sm-f127glbiins-samsung-original-imagftmhhhvghq7w.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 75px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+
+                   <div class="card" style="width: 12rem; margin-left: 30px;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/kfzq8i80/mobile/w/z/z/samsung-galaxy-f41-sm-f415fzgdins-original-imafwbnhbywwg5gh.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 75px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+   
+                    <div class="card" style="width: 12rem;    margin-left: 30px;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/kqqykcw0/mobile/j/5/7/galaxy-f22-sm-e225flbdins-samsung-original-imag4z99fp4qdfby.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 75px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+   
+                   <div class="card" style="width: 12rem;    margin-left: 30px">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/l19m93k0/mobile/s/g/h/-original-imagcv8jdxumgvxy.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 75px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+
+                   <div class="card" style="width: 12rem;    margin-left: 30px;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/9/v/9/galaxy-a03-core-sm-a032fzkdins-sm-a032fzk5ins-samsung-original-imaghzxw2uuxuftu.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 75px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+
+                   <div class="card" style="width: 12rem;    margin-left: 30px;">
+                    <center><img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/h/h/g/a04-e-sm-a042fzck-samsung-original-imagh8hxsfkstsxz.jpeg?q=70" class="card-img-top" alt="..." style=" height: 144px; width: 75px; margin-top: 33px;"></center> 
+                     <div class="card-body" style=" text-align: center;">
+                       <a href="" style=" text-decoration: none; border: none; color: black;">SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)</a>
+                       
+                        <div style="box-sizing: border-box; color: white; background-color: green; font-size: 12px; vertical-align: middle; text-align: center;border-radius: 3px;
+                         font-weight: 500; margin-left: 55px; margin-right: 55px; margin-top: 5px;">
+                          "4.4"
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16" style="color: white; align-items: center;">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        </div>
+                        <div style="font-size: 16px; font-weight: 500px; margin-top: 5px;">₹25,999 </div>   
+                     </div>
+                   </div>
+
+                </div>
+                
+              </div>
+
+
+
+
+            </div>
+
+            
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
